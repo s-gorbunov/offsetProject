@@ -4,8 +4,6 @@ body {
 }
 
 .header-wrp {
-    display: flex;
-    flex-wrap: wrap;
     background-image: url(../img/bg_photo.jpg);
     background-repeat: no-repeat;
     background-color: #000000;
@@ -134,7 +132,6 @@ body {
 }
 
 .header-slider {
-    flex-wrap: wrap;
     width: 100%;
 }
 
