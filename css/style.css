@@ -26,38 +26,32 @@ body {
     width: 100%;
 }
 
-.header-logo {
-    position: relative;
-    display: block;
-    height: 56px;
-    text-decoration: none;
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 181px;
     margin: 0 219px 0 226px;
-    padding: 0 0 0 64px;
+    text-decoration: none;
+    color: #fff;
+    }
+
+.logo-svg {
+    fill: currentColor;
+}
+
+.logo-txt {
     font-family: Raleway;
     font-size: 34px;
-    line-height: 1.6;
     font-weight: 400;
-    letter-spacing: -0.04em;
-    color: #ffffff;
+    text-align: right;
 }
 
-.header-logo::before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 64px;
-    height: 56px;
-    background-image: url(../img/logo.svg);
-    background-size: cover;
+.logo:hover{
+    color: #998675;
 }
 
-.header-logo:hover {
-    opacity: 0.5;
-}
-
-.header-logo:active {
+.logo:active {
     opacity: 0.2;
 }
 
