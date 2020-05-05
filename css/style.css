@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Montserrat;
+        src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+        src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
 body {
     width: 1920px;
     margin: 0 auto;
