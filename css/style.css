@@ -354,3 +354,56 @@ body {
     left: 96px;
 }
 
+.demstration-wrp {
+    background-color: #fbfaf8;
+    text-align: center;
+}
+
+.demonstration-title {
+    display: block;
+    padding: 83px 0 24px 0;
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.demonstration-p {
+    display: block;
+    width: 757px;
+    min-height: 43px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.demonstration-landscape-wrp {
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.demonstration-landscape-first-img {
+    position: absolute;
+    bottom: 0px;
+    left: 345px;
+    z-index: 1;
+}
+
+.demonstration-landscape-center-img {
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.demonstration-landscape-last-img {
+    position: absolute;
+    bottom: 0px;
+    right: 345px;
+    z-index: 1;
+}
+
