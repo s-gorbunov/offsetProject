@@ -17,7 +17,7 @@ body {
 
 .header-wrp {
     background-image: url(../img/bg_photo.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 40px 150px;
@@ -137,6 +137,9 @@ body {
     transition: width 1s ease-out;
     background-position: right;
     border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0 23px 0 9px;
 }
 
 .header-slider {
@@ -324,6 +327,10 @@ body {
 
 .service-direction:hover .service-direction-p::after {
     background-color: #c7b299;
+}
+
+.service-direction:active {
+    outline: 1px solid #c7b299;
 }
 
 .service-direction-svg {
