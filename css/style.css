@@ -17,7 +17,9 @@ body {
 
 .header-wrp {
     background-image: url(../img/bg_photo.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
     padding: 40px 150px;
 }
 
@@ -111,6 +113,7 @@ body {
     outline: none;
     background-color: inherit;
     background-image: url(../img/icon_cart.svg);
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     color: #ccc;
@@ -121,6 +124,7 @@ body {
     height: 24px;
     outline: none;
     background-image: url(../img/icon_search.svg);
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: inherit;
@@ -174,6 +178,8 @@ body {
     content: "";
     background-image: url(../img/arrow_left.svg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header-slider-info {
@@ -252,6 +258,8 @@ body {
     content: "";
     background-image: url(../img/arrow_right.svg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header-slider-pagination {
@@ -407,3 +415,59 @@ body {
     z-index: 1;
 }
 
+.advertising {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 376px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
+    background-size: 100%;
+}
+
+.advertising-name-company {
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #c7b299;
+}
+
+.advertising-title {
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.advertising-p {
+    margin: 8px 0;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+}
+
+.advertising-btn {
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    border: none;
+    outline: none;
+    border-radius: 3.0px;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.advertising-btn:hover {
+    box-shadow: 3px 3px 18px 1px rgba(0,0,0,0.79);
+}
+
+.advertising-btn:active {
+    box-shadow: none;
+}
