@@ -478,3 +478,222 @@ body {
 .advertising-btn:active {
     box-shadow: none;
 }
+
+.projects-wrp {
+    padding: 80px 375px;
+    background-color: #ffffff;
+}
+
+.projects-title {
+    display: block;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.projects-p {
+    display: block;
+    width: 757px;
+    margin: 20px auto 35px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.projects-nav-category {
+    text-align: center;
+}
+
+.projects-nav-category-btn-active {
+    padding: 5px 22px;
+    background-color: #998675;
+    border: 1px solid #998675;
+    border-radius: 3.0px;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.projects-nav-category-btn {
+    padding: 5px 22px;
+    border: 1px solid #ebebeb;
+    border-radius: 3.0px;
+    background-color: #ffffff;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-transform: capitalize;
+}
+
+.projects-nav-category-btn-active:hover, 
+.projects-nav-category-btn:hover {
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.50);
+}
+
+.projects-nav-category-btn-active:active, 
+.projects-nav-category-btn:active {
+    box-shadow: none;
+}
+
+.projects-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 735px;
+    margin: 40px 0;
+}
+
+.project-item {
+    display: block;
+    width: 370px;
+    height: 337px;
+    text-decoration: none;
+    position: relative;
+}
+
+.project-item-pic {
+    display: block;
+    width: 100%;
+}
+
+.project-item-txt {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fbfaf8;
+    padding: 30px 29px 27px 29px;
+    position: relative;
+}
+
+.project-item-txt::before {
+    position: absolute;
+    top: -34px;
+    left: 19px;
+    content: "";
+    display: block;
+    border: 20px solid transparent;
+    border-bottom: 15px solid #fbfaf8;
+}
+
+.project-item-txt-title {
+    display: block;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #c7b299;
+}
+
+.project-item-txt-info {
+    display: block;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #d1d1d1;
+}
+
+.project-item-btn-chain, 
+.project-item-btn-increase {
+    display: none;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    fill: #ffffff;
+}
+
+.project-item-btn-chain {
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+
+.project-item-btn-increase {
+    position: absolute;
+    top: 30%;
+    right: 37%;
+}
+
+.project-item-btn-chain:hover, 
+.project-item-btn-increase:hover {
+    fill-rule: evenodd;
+    fill: #c7b299;
+}
+
+.project-item-btn-chain:active, 
+.project-item-btn-increase:active {
+    fill-rule: evenodd;
+    fill: #d1d1d1;
+}
+
+.project-item:hover 
+.project-item-pic {
+    filter: brightness(50%);
+}
+
+.project-item:hover 
+.project-item-txt {
+    background-color: #362f2d;
+}
+
+.project-item:hover 
+.project-item-txt::before {
+    border-bottom: 15px solid #362f2d;
+}
+
+.project-item:hover 
+.project-item-txt-title {
+    color: #ffffff;
+}
+
+.project-item:hover 
+.project-item-txt-info {
+    color: #c7b299;
+}
+
+.project-item:hover 
+.project-item-btn-chain {
+    display: inline-block;
+}
+
+.project-item:hover 
+.project-item-btn-increase {
+    display: inline-block;
+}
+
+.projects-btn-loadMore {
+    display: block;
+    margin: 0 auto;
+    padding: 19px 44px;
+    background-color: #998675;
+    border-radius: 3.0px;
+    border: none;
+    outline: none;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.projects-btn-loadMore:hover {
+    box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.79);
+}
+
+.projects-btn-loadMore:active {
+    box-shadow: none;
+}
