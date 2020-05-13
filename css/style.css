@@ -775,3 +775,65 @@ body {
     font-weight: 400;
     color: #c7b299;
 }
+
+.mobileDevices {
+    width: 100%;
+    background-color: #ffffff;
+    background-image: url(../img/iphone_in_hand.jpg);
+    background-repeat: no-repeat;
+    background-size: 423px 616px;
+    background-position: 423px 79px;
+}
+
+.mobileDevices-txt-wrp {
+    width: 700px;
+    padding: 195px 345px 159px 875px;
+}
+
+.mobileDevices-title {
+    display: block;
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.mobileDevices-txt {
+    display: block;
+    margin: 30px 0 35px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.mobileDevices-list {
+    margin: 0 0 0 100px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.mobileDevices-list-item {
+    position: relative;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.mobileDevices-list-item::before {
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/mobile_list_marker.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 5px;
+    left: -55px;
+}
