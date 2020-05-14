@@ -213,14 +213,14 @@ body {
     border: none;
     position: absolute;
     top: 40px;
-    left: -120px;
+    left: -717px;
     color: #c7b299;
     font-size: 16px;
     text-transform: capitalize;
 }
 
 .header-nav-icon-search-form-input:focus {
-    width: 365px;
+    width: 600px;
     min-height: 20px;
     transition: width 1s ease;
     border: 2px solid #fff;
