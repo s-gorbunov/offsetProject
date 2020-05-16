@@ -1001,3 +1001,198 @@ body {
     border: none;
     opacity: 0.4;
 }
+
+.recentPosts {
+    background-color: #ffffff;
+    padding: 80px 375px;
+}
+
+.recentPosts-title {
+    display: block;
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.recentPosts-p {
+    display: block;
+    width: 770px;
+    min-height: 50px;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.recentPosts-wrp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recentPost-item {
+    width: 370px;
+    min-height: 395px;
+    position: relative;
+    border: 1.0px solid #f8f8f8;
+}
+
+.recentPost-item:hover {
+    background-color: #362f2d;
+}
+
+.recentPost-item:hover .recentPost-item-img {
+    filter: brightness(50%);
+}
+
+.recentPost-item:hover .recentPost-item-calendar-number {
+    background-color:#c7b299;;
+}
+
+.recentPost-item:hover .recentPost-item-calendar-month {
+    background-color: #a48d72;
+}
+
+.recentPost-item:hover .recentPost-item-title {
+    color: #c7b299;
+}
+
+.recentPost-item:hover .recentPost-item-p {
+    color: #ffffff;
+}
+
+.recentPost-item-img {
+    display: block;
+    background-color: #ffffff;
+}
+
+.recentPost-item-calendar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.recentPost-item-calendar-number {
+    display: block;
+    text-align: center;
+    width: 30px;
+    padding: 9px 10px;
+    background-color: #363636;
+    border-radius: 3.0px 3.0px 0.0px 0.0px;
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    word-break: break-all;
+}
+
+.recentPost-item-calendar-month {
+    display: block;
+    text-align: center;
+    width: 30px;
+    padding: 7px 10px 6px 10px;
+    background-color: #252525;
+    border-radius: 0.0px 0.0px 3.0px 3.0px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    word-break: break-all;
+}
+
+.recentPost-item-txtAndbtn {
+    padding: 30px;
+}
+
+.recentPost-item-title {
+    display: block;
+    margin: 0 0 10px 0;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #555555;
+}
+
+.recentPost-item-p {
+    margin: 0;
+    padding: 10px 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.recentPost-btn {
+    display: block;
+    width: 80px;
+    margin: 17px 0 0 0;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #c7b299;
+    word-break: break-all;
+    position: relative;
+}
+
+.recentPost-btn::after {
+    content: "";
+    display: block;
+    border: 5px solid transparent;
+    border-left: 9px solid #c7b299;
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}
+
+.recentPost-btn:hover {
+    border-bottom: 1px dotted #c7b299;
+}
+
+.recentPost-btn:active {
+    border: none;
+}
+
+.recentPosts-arrow-wrp {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 80px;
+}
+
+.recentPosts-arrow-left,
+.recentPosts-arrow-right {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid #c7b299;
+    background-color: #ffffff;
+}
+
+.recentPosts-arrow-left {
+    margin-right: 8px;
+}
+
+/*.recentPost-arrow-left::after {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: #ffffff;
+    background-image: url(../img/arrow_left.svg);
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: center;
+}*/
