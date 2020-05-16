@@ -1045,6 +1045,7 @@ body {
 
 .recentPost-item:hover {
     background-color: #362f2d;
+    border: 1px solid #c7b299;
 }
 
 .recentPost-item:hover .recentPost-item-img {
