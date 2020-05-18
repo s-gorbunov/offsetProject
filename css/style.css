@@ -75,6 +75,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/roboto-regular.eot);
+    src: url(../fonts/Roboto/roboto-regular.eot?#iefix) format("embedded-opentype"),
+         url(../fonts/Roboto/roboto-regular.woff2) format("woff2"),
+         url(../fonts/Roboto/roboto-regular.woff) format("woff"),
+         url(../fonts/Roboto/roboto-regular.ttf) format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     width: 1920px;
     margin: 0 auto;
@@ -92,6 +103,7 @@ body {
 
 .header-logoAndNav {
     display: flex;
+    align-items: center;
     padding-left: 226px;
 }
 
@@ -1212,6 +1224,14 @@ body {
     background-position: center;
 }
 
+.partners-logo-link:hover {
+    opacity: 0.5;
+}
+
+.partners-logo-link:active {
+    opacity: 0.2;
+}
+
 .footer-widgets {
     display: flex;
     justify-content: space-between;
@@ -1437,13 +1457,45 @@ body {
 }
 
 .footer-refInfo {
-    padding: 45px 374px 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 374px;
     background-color: #111111;
 }
 
+.footer-refInfo-link {
+    display: block;
+    text-decoration: none;
+    float: left;
+    padding: 0 10px;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+    border-right: 1px solid #555555;
+}
 
+.footer-refInfo-link:last-child, 
+.footer-refInfo-link:last-child {
+    border:none;
+}
 
+.footer-refInfo-link::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
+.footer-refInfo-link-highlighting {
+    color: #959595;
+}
 
+.footer-refInfo-link:hover {
+    color: #c7b299;
+}
 
-/*Подключить шрифт робото*/
+.footer-refInfo-link:active {
+    color: #363636;
+}
