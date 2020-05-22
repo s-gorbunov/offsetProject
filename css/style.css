@@ -189,7 +189,7 @@ body {
     padding: 0;
     border: none;
     outline: none;
-    background-color: inherit;
+    background-color: rgba(0, 0, 0, 0);
     background-image: url(../img/icon_cart.svg);
     background-position: center;
     background-size: contain;
