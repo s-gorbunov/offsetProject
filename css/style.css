@@ -111,7 +111,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 181px;
+    min-width: 181px;
+    max-width: 181px;
     text-decoration: none;
     color: #fff;
     }
